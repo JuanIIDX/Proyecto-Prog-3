@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulario autor</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <nav class="indigo darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <img height=65s src="imagenes/logo.png">
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="indigo ligther-1 white-text">Acceder</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Registrarse</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div class="row indigo darken-1">
+        <br><br>
+        <form class="col s6">
+            <h5>Formulario de registro para autor:</h5>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="primer_nombre" type="text" class="validate">
+                    <label for="primer_nombre">Primer nombre</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="segundo_nombre" type="text" class="validate">
+                    <label for="segundo_nombre">Segundo nombre</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="primer_apellido" type="text" class="validate">
+                    <label for="primer_apellido">Primer apellido</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="segundo_apellido" type="text" class="validate">
+                    <label for="segundo_apellido">Segundo apellido</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telefono</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Correo electronico</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <select>
+                        <option value="" disabled selected>Escoja una opcion</option>
+                        <option value="1">Alemania</option>
+                        <option value="2">Argentina</option>
+                        <option value="3">Brasil</option>
+                        <option value="4">Colombia</option>
+                        <option value="5">Ecuador</option>
+                        <option value="6">EEUU</option>
+                        <option value="7">España</option>
+                        <option value="8">Mexico</option>
+                        <option value="9">Perú</option>
+                    </select>
+                    <label>Seleccione su pais</label>
+                </div>
+                <div class="input-field col s6">
+                    <select>
+                        <option value="" disabled selected>Escoja una opcion</option>
+                        <option value="1">Pregrado</option>
+                        <option value="2">Especializacion</option>
+                        <option value="3">Magister</option>
+                        <option value="4">PhD</option>
+                    </select>
+                    <label>Nivel de formacion</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12" align="right">
+                    <a class="waves-effect waves-light btn green"><i class="material-icons right">check</i>Aceptar</a>
+                    <a class="waves-effect waves-light btn red"><i class="material-icons right">close</i>Cancelar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="materialize/js/materialize.js"></script>
+    <script src="materialize/js/init.js"></script>
+    <script src="materialize/js/mi-script.js"></script>
+
+</body>
+
+</html>
